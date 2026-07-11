@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build" # Comando usado para gerar os arquivos
+  publish = "dist/"          # Pasta que será publicada na CDN
+
+[functions]
+  node_bundler = "esbuild"   # Empacotador para funções serverless
